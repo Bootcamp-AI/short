@@ -47,5 +47,3 @@ def redirect_url(short_id):
     else:
         flash('Invalid URL')
         return redirect(url_for('index'))
-
-    
